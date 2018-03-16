@@ -1,6 +1,6 @@
 {
     "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-    "id": "https://raw.githubusercontent.com/JimAllanson/vr-team-schema/master/model.json",
+    "id": "https://raw.githubusercontent.com/JimAllanson/vr-team-schema/master/3dmodel.json",
     "title": "model",
     "description": "3d model",
     "allOf": [
