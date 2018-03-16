@@ -1,0 +1,31 @@
+{
+    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+    "id": "https://gist.githubusercontent.com/JimAllanson/88c852d86be3628e255801552bb28615/raw/",
+    "title": "model",
+    "description": "3d model",
+    "allOf": [
+        {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+        }
+    ],
+    "type": "object",
+    "properties": {
+        "path": {
+            "title": "path",
+            "description": "path to 3d model",
+            "type": "string"
+        },
+        "swatch1": {
+            "description": "swatch1",
+            "title": "swatch1",
+            "type": "array",
+            "items": {
+                "allOf": [
+                    {
+                        "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/media-link"
+                    }
+                ]
+            }
+        }
+    }
+}
